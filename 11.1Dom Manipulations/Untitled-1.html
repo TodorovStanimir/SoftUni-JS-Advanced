@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style type="text/css">
+        table {
+            width: 300px;
+            border: 2px solid red;
+        }
+
+        thead {
+            background: #2e8b57 repeat-x;
+        }
+
+        td,
+        th {
+            padding: 3px;
+            text-align: center;
+        }
+
+        .lc {
+            font-weight: bold;
+            text-align: left;
+        }
+
+        .firstDiv {
+            background-color: yellow;
+            display: inline-block;
+            text-align: left;
+        }
+    </style>
+    <script src="solve.js"></script>
+</head>
+
+<body>
+    <table cellspacing='0'>
+        <thead>
+            <tr>
+                <th>&nbsp;</th>
+                <th>2012</th>
+                <th>2013</th>
+                <th>2014</th>
+            </tr>
+        </thead>
+        <tr>
+            <td class="lc">Jan</td>
+            <td>15167</td>
+            <td>14789</td>
+            <td>15634</td>
+        </tr>
+        <tr>
+            <td class="lc">Feb</td>
+            <td>15234</td>
+            <td>16234</td>
+            <td>16111</td>
+        </tr>
+        <tr>
+            <td class="lc">Mar</td>
+            <td>16789</td>
+            <td>17123</td>
+            <td>17899</td>
+        </tr>
+    </table>
+    <br>
+    <div class="firstDiv">
+        Sex:
+        <br><input type="radio" name="sex" id="male" value="M" checked>Male
+        <br><input type="radio" name="sex" id="female" value="F">Female
+        <br>
+        <button onclick="addRow()">Submit</button>
+        <button onclick="printYear()">Print Year</button>
+        <br>
+    </div>
+    <br>
+    <br>
+    <!-- <textarea name="textArea" id="textArea" cols="30" rows="10" accesskey="t"></textarea> -->
+    <select name="year" id="size3" size="3" multiple>
+        <option value="2017">2017</option>
+        <option value="2017">2016</option>
+        <option value="2017">2015</option>
+        <option value="2017">2014</option>
+        <option value="2017">2013</option>
+        <option value="2017">2012</option>
+        <option value="2017">2011</option>
+    </select>   
+</body>
+
+</html>
