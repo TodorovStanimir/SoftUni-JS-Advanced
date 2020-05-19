@@ -1,0 +1,17 @@
+{
+  "name": "js-advanced-23-february-2020",
+  "version": "1.0.0",
+  "description": "",
+  "main": "Article.js",
+  "dependencies": {
+    "chai": "^4.2.0"
+  },
+  "devDependencies": {
+    "mocha": "^7.0.1"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "",
+  "license": "ISC"
+}
